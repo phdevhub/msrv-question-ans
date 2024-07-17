@@ -1,9 +1,9 @@
-pip install --upgrade pip
-pip install --upgrade setuptools pip wheel
-pip install nvidia-pyindex
-pip install nvidia-cuda-runtime-cu12
-pip install farm-haystack
-pip install farm-haystack[inference]
-pip install farm-haystack[preprocessing]
-pip install ipywidgets widgetsnbextension pandas-profiling IProgress
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+wheel
+Flask
+ipywidgets
+pandas-profiling
+widgetsnbextension
+farm-haystack
+farm-haystack[inference]
+farm-haystack[preprocessing]
+IProgress
